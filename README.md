@@ -14,7 +14,7 @@ To run the metaheuristics, go the the appropriate directory (skinny or aes-based
 
 ## Benchmarks
 
-The code can run for very long time. To speed things up, you can change some of the parameters specified in parameters.py and in fitness.py. In particular, you can make the search easier (more feasible) by:
+The code can run for very long time. To speed things up, change some of the parameters specified in parameters.py and in fitness.py. In particular, you can make the search easier (more feasible) by:
 1. Target lighter versions of the primitives, i.e. smaller state size. Check parameters.py for more details.
 2. Target lower security levels. Check parameters.py for more details.
 3. Use more cores: THREAD count is defined in fitness.py.
@@ -26,4 +26,4 @@ The code can run for very long time. To speed things up, you can change some of 
 
 ## Paper
 
-The paper explaining the approach can be found [here](https://eprint.iacr.org/2016/1162.pdf)
+The paper explaining the approach has been published at ASIACRYPT'17 and it can be found [here](https://link.springer.com/chapter/10.1007%2F978-3-319-70700-6_13).
