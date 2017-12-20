@@ -1,6 +1,6 @@
 # Metaheuristics for design of symmetric-key crypto primitives
 
-The repository contains Python implementation of metaheuritics (simulated annearling and genetic algorithms) that are used to design  two types of symmetric-key primitives (tweaked [SKINNY](https://link.springer.com/chapter/10.1007%2F978-3-662-53008-5_5) lightweight block cipher and the [fastest AES-round based constructions](https://link.springer.com/chapter/10.1007%2F978-3-662-52993-5_17]) ).
+The repository contains Python implementation of metaheuritics (simulated annearling and genetic algorithms) that are used to design/tweak  two types of symmetric-key primitives (tweaked [SKINNY](https://link.springer.com/chapter/10.1007%2F978-3-662-53008-5_5) lightweight block cipher and the [fastest AES-round based constructions](https://link.springer.com/chapter/10.1007%2F978-3-662-52993-5_17]) ).
 
 
 
