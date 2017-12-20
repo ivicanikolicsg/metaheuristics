@@ -1,3 +1,7 @@
 # Metaheuristics for design of crypto primitives
 
-**Note: This is an implementation of results from the paper https://eprint.iacr.org/2016/1162.pdf** 
+The repository contains implementation of metaheuritics (simulated annearling and genetic algorithms) for design of symmetric-key primitives. 
+
+## Paper
+
+The paper explaining the approach can be found [here](https://eprint.iacr.org/2016/1162.pdf)
