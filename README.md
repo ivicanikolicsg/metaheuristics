@@ -17,7 +17,7 @@ To run the metaheuristics, go the the appropriate directory (skinny or aes-based
 The code can run for very long time. To speed things up, you can change some of the parameters specified in parameters.py and in fitness.py. In particular, you can make the search easier (more feasible) by:
 1. Target lighter versions of the primitives, i.e. smaller state size. Check parameters.py for more details.
 2. Target lower security levels. Check parameters.py for more details.
-3. Use more cores: THREAD count in defined in fitness.py.
+3. Use more cores: THREAD count is defined in fitness.py.
 
 
 ## Dependencies
