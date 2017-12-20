@@ -1,6 +1,6 @@
 # Metaheuristics for design of symmetric-key crypto primitives
 
-The repository contains Python implementation of metaheuritics (simulated annearling and genetic algorithms) to design of two types of symmetric-key primitives (tweaked [SKINNY](https://link.springer.com/chapter/10.1007%2F978-3-662-53008-5_5) lightweight block cipher and the [fastest AES-round based constructions](https://link.springer.com/chapter/10.1007%2F978-3-662-52993-5_17]) ).
+The repository contains Python implementation of metaheuritics (simulated annearling and genetic algorithms) that are used to design  two types of symmetric-key primitives (tweaked [SKINNY](https://link.springer.com/chapter/10.1007%2F978-3-662-53008-5_5) lightweight block cipher and the [fastest AES-round based constructions](https://link.springer.com/chapter/10.1007%2F978-3-662-52993-5_17]) ).
 
 
 
@@ -22,7 +22,7 @@ The code can run for very long time. To speed things up, you can change some of 
 
 ## Dependencies
 
-1. Intel's Gurobi
+1. Intel's Gurobi. In general metaheuristics not necessarily need ILP solver, but the differential analysis of SKINNY and of AES-round based constructions reduces the problem of finding the best related-tweakey trails to ILP problem which is solved with Gurobi.
 
 ## Paper
 
